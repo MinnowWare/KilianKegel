@@ -1,39 +1,6 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
-## logbook 
-* **2023-12-10**
-  * update [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell)
-    * **NOTE**: Improvements apply only to recent INTEL(tm) platforms only. The particular CPUID leaf 0x15 and MSR **MSR_PLATFORM_INFO** are not available on AMD systems.
-  * [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL#edk2-uefi-shell--visual-uefi-shell) update to recently released Intel Tianocore [edk2-stable202311](https://github.com/tianocore/edk2/releases/tag/edk2-stable202311)
-    * add `DEFAULT_UEFI_DRIVE_NAMING` switch to **BOOTX64.INI**, to enable UEFI default drive naming **FS0:**, **FS1:**, **FS2:** ...
-* **2023-11-19**
-  * improve [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)
-  * improve [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
-  * update [CdePkg](https://github.com/KilianKegel/CdePkg) – C Development Environment Package for EDK2 and derived BIOS products
-  * update [Visual ANSI C for UEFI Shell](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell#visual-ansi-c-for-uefi-shell)
-* **2023-10-29**
-  * update YOUTUBE appearance: https://www.youtube.com/@kiliankegel4598
-  * update [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – Build UEFI SHELL binary from latest available EDK2 release tag
-    * add **PCIView** plugin
-    * https://www.youtube.com/watch?v=wXTQ_wsKwHw
-  * update [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell) – TSCSync - TimeStampCounter (TSC) synchronizer, analyze System Timer characteristics
-    * improvement, *BETA RELEASE*
-    * add **/METHOD:TIANO/ACPI/PIT** to select ACPI/PIT(i8254) or original *tianocore* calibration method
-    * CONFIG Menu shows true timing values, instead of ACPI clock numbers
-    * https://www.youtube.com/watch?v=I92emFEyTDI
-* **2023-10-15**
-  * Creation [Visual-TSCSync-for-UEFI-Shell](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell#visual-tscsync-for-uefi-shell) – TSCSync - TimeStampCounter (TSC) synchronizer, analyze System Timer characteristics
-  * update [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
-  * update all dependencies
-* **2023-09-17**
-  * Creation [Visual-UEFI-SHELL](https://github.com/KilianKegel/Visual-UEFI-SHELL) – Build UEFI SHELL binary from latest available EDK2 release tag
-* **2023-09-16**
-  * update [CdePkg](https://github.com/KilianKegel/CdePkg) – C Development Environment Package for EDK2 and derived BIOS products
-  * update [Toro C Library](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
-  * update [Visual ANSI C for UEFI Shell](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell#visual-ansi-c-for-uefi-shell)
-* **2023-09-10**
-  * update [CdePkg](https://github.com/KilianKegel/CdePkg) – C Development Environment Package for EDK2 and derived BIOS products
-  * update [Visual-ACPICA-for-UEFI-Shell](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-Shell) – ACPI CA (ACPI component architecture) reference implementation for UEFI, using Visual Studio 2022 build environment
+
 
 
 * **2023-09-09**
