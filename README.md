@@ -1,6 +1,7 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 ## TORO-UEFI-Shell -- improved UEFI SHELL with original Intel ACPI Tools (ASLCOMPILER, ACPIDUMP) and many other plugins running in UEFI SHELL based on TIANOCORE/EDK2 November 2024 update [edk2-stable202411](https://github.com/tianocore/edk2/releases/tag/edk2-stable202411)
-https://github.com/KilianKegel/Visual-UEFI-SHELL?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell
+[Visual UEFI Shell](https://github.com/KilianKegel/Visual-UEFI-SHELL?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell)<br>
+[ACPI Component Architecture port to UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)<br>
 ![](https://github.com/KilianKegel/pictures/blob/master/TORO-UEFI-SHELL-INTRO.gif)
 
 ## Checking UEFI time drift on your platform: TSCSync
