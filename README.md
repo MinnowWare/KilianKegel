@@ -1,10 +1,18 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
-## TORO-UEFI-Shell – improved UEFI SHELL with original Intel ACPI Tools (ASLCOMPILER, ACPIDUMP) and many other plugins running in UEFI SHELL based on TIANOCORE/EDK2 February 2025 update [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
+
+### LLVM/CLANG support for Visual Studio 2022
+[**toro C Library v0.9.1 build 267**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20250322-v091-build-267) 
+provides libraries for the VS2022 LLVM/CLANG tool chain.<br>
+In [Visual-ANSI-C-for-UEFI-Shell](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell?tab=readme-ov-file#visual-ansi-c-for-uefi-shell)
+all sample programs now also builds with **LLVM/CLANG**.
+
+
+### TORO-UEFI-Shell – improved UEFI SHELL with original Intel ACPI Tools (ASLCOMPILER, ACPIDUMP) and many other plugins running in UEFI SHELL based on TIANOCORE/EDK2 February 2025 update [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
 [UEFI-SHELL-binary-source-and-build-environment](https://github.com/KilianKegel/UEFI-SHELL-binary-source-and-build-environment?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell)<br>
 [ACPI Component Architecture port to UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)<br>
 ![](https://github.com/KilianKegel/pictures/blob/master/TORO-UEFI-SHELL-INTRO.gif)
 
-## Checking UEFI time drift on your platform: TSCSync
+### Checking UEFI time drift on your platform: TSCSync
 https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell?tab=readme-ov-file#visual-tscsync-for-uefi-shell
 ![](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSyncDemo.gif)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=logbook)](https://github.com/KilianKegel/logbook)
