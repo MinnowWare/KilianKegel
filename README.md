@@ -7,7 +7,7 @@ In [**Visual-ANSI-C-for-UEFI-Shell**](https://github.com/KilianKegel/Visual-ANSI
 all sample programs now also builds with **LLVM/CLANG**.
 
 ## License clarification
-### Toro C Library binary
+### License: *Toro C Library binary*
 [**Toro C Library binary**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#toro-c-library-formerly-known-as-torito-c-library) for IBM PC AT(tm) compatible x86-64 UEFI shell and Windows NT executables,<br>
 C Development Environment for UEFI<br>
 Copyright (c) 2017-2025, Kilian Kegel (kilian_kegel@hotmail.com), https://github.com/KilianKegel/toro-C-Library<br>
@@ -39,7 +39,7 @@ DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
 ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
 SOFTWARE.
 
-### Toro C Library sourcecode
+### License: *Toro C Library sourcecode*
 [Toro C Library sourcecode](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#torosrc)
 
     Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
