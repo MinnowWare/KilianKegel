@@ -13,13 +13,17 @@ It is a new, indepenant implementation of the [**ANSI C89 / ISO C90+C95 Standard
 ([Only floating point print/scan-support is currently missing](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#known-bugs) — Instead [**MATH.H**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250309-v090-build-243) functions are available !!!)
 
 
+<img src="https://github.com/KilianKegel/pictures/blob/master/torouefishell.png"  width="256" height="144"><br>
+
+
 ## Flagship Projects
 | Flagship Project | Content|
 |--------------|--------------------|
-|[**ANSI C for UEFI Shell**](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell)| getting started with simple programs|
-|[**ACPICA**](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)| [**Intel ACPI COMPONENT ARCHITECTURE**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/overview.html)<br>Original Intel reference implementation running in UEFI Shell:<br>- AslCompiler.EFI<BR>- AcpiBin.EFI<BR>- AcpiDump.EFI<BR>|
-|[**UEFI-SHELL**](https://github.com/KilianKegel/UEFI-SHELL)| Build original UEFI SHELL from latest available [**EDK2 drop**](https://github.com/tianocore/edk2/tags)<br>1. integrate Tianocore EDK2 build tools into project (*portable build*)<br>2. introduce ♉toro-UEFI-SHELL with *plugins* and other improvements build with VS2022.   |
-|[**TSCSync**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)| TimeStampCounter-Synchronizer<br>1. Introduce **TUI** TextUserInterface, a menu driven UEFI application — that looks not so bad...<br><img src="https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSyncDemo.gif"  width="256" height="144"><br>2. Introduction of multi chart <img src="https://github.com/KilianKegel/pictures/blob/master/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png"  width="20" height="20"> Excel .XLSX file generation using open source [**libxlsxwriter**](https://github.com/jmcnamara/libxlsxwriter)<br>3. Introduce reliable speed measurement to enable TSC for timer and wallclock usage [**AcpiClkWait()**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSync/AcpiClkWait.c#L51) vs. [**InternalAcpiDelay()**](https://github.com/tianocore/edk2/blob/master/PcAtChipsetPkg/Library/AcpiTimerLib/AcpiTimerLib.c#L150)|
+|[**ANSI C for UEFI Shell**](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell)| getting started with simple programs <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="18" height="18"> LLVM/CLANG support<br><img src="https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/CfgMgr.png"  width="256" height="144"><br>
+|
+|[**ACPICA**](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)| [**Intel ACPI COMPONENT ARCHITECTURE**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/overview.html)<br><img src="https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE/blob/main/LOGO.PNG"  width="291" height="45"><br>Original Intel reference implementation running in UEFI Shell:<br>- AslCompiler.EFI<BR>- AcpiBin.EFI<BR>- AcpiDump.EFI<BR>|
+|[**UEFI-SHELL**](https://github.com/KilianKegel/UEFI-SHELL)| Build original UEFI SHELL from latest available [**EDK2 drop**](https://github.com/tianocore/edk2/tags)<br><img src="https://github.com/KilianKegel/pictures/blob/master/torouefishell.png"  width="256" height="144"><br>1. integrate Tianocore EDK2 build tools into project (*portable build*)<br>2. introduce ♉toro-UEFI-SHELL with *plugins* and other improvements build with VS2022.   |
+|[**TSCSync**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)| TimeStampCounter-Synchronizer<br><img src="https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSyncDemo.gif"  width="256" height="144"><br>1. Introduce **TUI** TextUserInterface, a menu driven UEFI application — that looks not so bad...<br>2. Introduction of multi chart <img src="https://github.com/KilianKegel/pictures/blob/master/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png"  width="20" height="20"> Excel .XLSX file generation using open source [**libxlsxwriter**](https://github.com/jmcnamara/libxlsxwriter)<br>3. Introduce reliable speed measurement to enable TSC for timer and wallclock usage [**AcpiClkWait()**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSync/AcpiClkWait.c#L51) vs. [**InternalAcpiDelay()**](https://github.com/tianocore/edk2/blob/master/PcAtChipsetPkg/Library/AcpiTimerLib/AcpiTimerLib.c#L150)|
 |[**toro C Library**<br>source code](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)| The Stuff That Dreams Are Made Of |
 
 ### <!--<img src="https://github.com/KilianKegel/pictures/blob/master/refresh-icon.png"  width="48" height="48">-->HOWTO
@@ -44,26 +48,6 @@ It is a new, indepenant implementation of the [**ANSI C89 / ISO C90+C95 Standard
     Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
     SPDX-License-Identifier: GNU General Public License v3.0
 ```
-
-
-
-## <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="18" height="18"> LLVM/CLANG support for Visual Studio 2022
-[**toro C Library v0.9.1 build 267**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20250322-v091-build-267) 
-provides libraries for the VS2022 LLVM/CLANG tool chain.<br>
-In [**Visual-ANSI-C-for-UEFI-Shell**](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell?tab=readme-ov-file#visual-ansi-c-for-uefi-shell)
-all sample programs now also builds with **LLVM/CLANG**.
-
-
-
-### TORO-UEFI-Shell – improved UEFI SHELL with original Intel ACPI Tools (ASLCOMPILER, ACPIDUMP) and many other plugins running in UEFI SHELL based on TIANOCORE/EDK2 February 2025 update [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
-[UEFI-SHELL-binary-source-and-build-environment](https://github.com/KilianKegel/UEFI-SHELL-binary-source-and-build-environment?tab=readme-ov-file#edk2-uefi-shell--toro-uefi-shell)<br>
-[ACPI Component Architecture port to UEFI](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)<br>
-![](https://github.com/KilianKegel/pictures/blob/master/TORO-UEFI-SHELL-INTRO.gif)
-
-### Checking UEFI time drift on your platform: TSCSync
-https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell?tab=readme-ov-file#visual-tscsync-for-uefi-shell
-![](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSyncDemo.gif)
-[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=logbook)](https://github.com/KilianKegel/logbook)
 
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Visual-TORO-C-LIBRARY-for-UEFI)](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
