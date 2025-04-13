@@ -5,11 +5,11 @@
 
 # UEFI C Library
 
-The content on this page is all about the development of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
+The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
 and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022 for x86 platforms.
 
-The [**♉toro C Library**](https://github.com/KilianKegel/toro-C-Library) introduced here is written without any dependancy of other source code.<br>
-It is a new, indepenant implementation of the [**ANSI C89 / ISO C90+C95 Standard C Library**](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub160.pdf).<br>
+The [**♉toro C Library**](https://github.com/KilianKegel/toro-C-Library) introduced here is written independently of any other source code.<br>
+It is a new, independent implementation of the [**ANSI C89 / ISO C90+C95 Standard C Library**](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub160.pdf).<br>
 ([Only floating point print/scan-support is currently missing](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#known-bugs) — Instead [**MATH.H**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250309-v090-build-243) functions are available !!!)
 
 ## Flagship Projects
