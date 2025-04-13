@@ -1,8 +1,51 @@
+#### keywords
+"ANSI C for UEFI", "ISO C for UEFI", "Standard C for UEFI", "UEFI LIBC", "EFI LIBC", "UEFI application", "UEFI driver"
+
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
 # UEFI C Library
+
 The content on this page is all about the development of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
-and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022.
+and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022 for x86 platforms.
+
+The [**♉toro C Library**](https://github.com/KilianKegel/toro-C-Library) introduced here is written without any dependancy of other source code.<br>
+It is a new, indepenant implementation of the [**ANSI C89 / ISO C90+C95 Standard C Library**](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub160.pdf).<br>
+([Only floating point print/scan-support is currently missing](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#known-bugs) — Instead [**MATH.H**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250309-v090-build-243) functions are available !!!)
+
+
+## Flagship Projects
+| Flagship Project | Content|
+|--------------|--------------------|
+|[**ANSI C for UEFI Shell**](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell)| getting started with simple programs|
+|[**ACPICA**](https://github.com/KilianKegel/Visual-ACPICA-for-UEFI-ShellPORTABLE?tab=readme-ov-file#visual-acpica-for-uefi-shell)| [**Intel ACPI COMPONENT ARCHITECTURE**](https://www.intel.com/content/www/us/en/developer/topic-technology/open/acpica/overview.html)<br>Original Intel reference implementation running in UEFI Shell:<br>- AslCompiler.EFI<BR>- AcpiBin.EFI<BR>- AcpiDump.EFI<BR>|
+|[**UEFI-SHELL**](https://github.com/KilianKegel/UEFI-SHELL)| Build original UEFI SHELL from latest available [**EDK2 drop**](https://github.com/tianocore/edk2/tags)<br>1. integrate Tianocore EDK2 build tools into project (*portable build*)<br>2. introduce ♉toro-UEFI-SHELL with *plugins* and other improvements build with VS2022.   |
+|[**TSCSync**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)| TimeStampCounter-Synchronizer<br>1. Introduce reliable speed measurement to enable TSC for timer and wallclock usage<br>[**AcpiClkWait()**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSync/AcpiClkWait.c#L51) vs. [**InternalAcpiDelay()**](https://github.com/tianocore/edk2/blob/master/PcAtChipsetPkg/Library/AcpiTimerLib/AcpiTimerLib.c#L150)<br>2. Introduction of multi chart <img src="https://github.com/KilianKegel/pictures/blob/master/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png"  width="20" height="20">Excel .XLSX file generation using open source [**libxlsxwriter**](https://github.com/jmcnamara/libxlsxwriter)<br>           |
+|[**toro C Library**<br>source code](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)| The Stuff That Dreams Are Made Of |
+
+### <!--<img src="https://github.com/KilianKegel/pictures/blob/master/refresh-icon.png"  width="48" height="48">-->HOWTO
+
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-setup-a-UEFI-Development-PC)](https://github.com/KilianKegel/Howto-setup-an-UEFI-Development-PC#howto-setup-a-uefi-development-pc)
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-create-a-UEFI-Shell-Boot-Drive)](https://github.com/MinnowWare/Howto-create-a-UEFI-Shell-Boot-Drive#howto-create-a-uefi-shell-boot-device)
+
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-configure-VS2022-to-build-.EFI-executables#howto-configure-vs2022-to-build-efi-executables)](https://github.com/KilianKegel/Howto-configure-VS2022-to-build-.EFI-executables#howto-configure-vs2022-to-build-efi-executables) [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=git-for-gits)](https://github.com/KilianKegel/git-for-gits)
+
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-configure-DDK-and-WDK-for-Standard-C-usage)](https://github.com/KilianKegel/Howto-configure-DDK-and-WDK-for-Standard-C-usage) 
+[![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-setup-a-YOCTO-Development-PC)](https://github.com/KilianKegel/Howto-setup-a-YOCTO-Development-PC)
+
+
+## License clarification
+### License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
+[**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
+
+**I decided to allow developers to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
+
+### License [**toro C Library** *source code*](https://github.com/KilianKegel/toro-C-Library)
+```
+    Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
+    SPDX-License-Identifier: GNU General Public License v3.0
+```
+
+
 
 ## <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="18" height="18"> LLVM/CLANG support for Visual Studio 2022
 [**toro C Library v0.9.1 build 267**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20250322-v091-build-267) 
@@ -10,44 +53,6 @@ provides libraries for the VS2022 LLVM/CLANG tool chain.<br>
 In [**Visual-ANSI-C-for-UEFI-Shell**](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell?tab=readme-ov-file#visual-ansi-c-for-uefi-shell)
 all sample programs now also builds with **LLVM/CLANG**.
 
-## License clarification
-### License: *Toro C Library binary*
-[**Toro C Library binary**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#toro-c-library-formerly-known-as-torito-c-library) for IBM PC AT(tm) compatible x86-64 UEFI shell and Windows NT executables,<br>
-C Development Environment for UEFI<br>
-Copyright (c) 2017-2025, Kilian Kegel (kilian_kegel@hotmail.com), https://github.com/KilianKegel/toro-C-Library<br>
-<br>
-Permission to use **Toro C Library binary** for the sole purpose of creating
-UEFI Shell, UEFI POST drivers and Windows NT console applications applications, which may be
-distributed with or without fee, is hereby granted.
-
-The library binary files:<br>
-* [**toroC64.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC64.lib), 64bit all-in-one library for UEFI Shell/DXE/SMM and Windows NT for Microsoft linker
-* [**toroC64LLVMUefiShell.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC64LLVMUefiShell.lib), 64bit UEFI Shell library for the LLVM linker
-* [**toroC64LLVMWinNT.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC64LLVMWinNT.lib), 64bit WinNT library for the LLVM linker
-* [**toroC32.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC32.lib), 32bit all-in-one library for UEFI Shell/DXE/PEI and Windows NT for Microsoft linker
-* [**toroC32LLVMUefiShell.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC32LLVMUefiShell.lib), 32bit UEFI Shell library for the LLVM linker
-* [**toroC32LLVMWinNT.lib**](https://github.com/KilianKegel/toro-C-Library/blob/master/toroC32LLVMWinNT.lib), 32bit WinNT library for the LLVM linker
-
-are **explicitely excluded from the GPL license**.<br>
-This is called the **Toro C Library Runtime Exception**, similiar to the [GCC Runtime Library Exception](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html).<br>
-
-
-It is not allowed to sell Toro C Library as a stand alone product or
-to modify it's content in any way.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
-FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL,DIRECT,INDIRECT,
-OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
-DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
-ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS
-SOFTWARE.
-
-### License: *Toro C Library sourcecode*
-[Toro C Library sourcecode](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#torosrc)
-
-    Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
-    SPDX-License-Identifier: GNU General Public License v3.0
 
 
 ### TORO-UEFI-Shell – improved UEFI SHELL with original Intel ACPI Tools (ASLCOMPILER, ACPIDUMP) and many other plugins running in UEFI SHELL based on TIANOCORE/EDK2 February 2025 update [edk2-stable202502](https://github.com/tianocore/edk2/releases/tag/edk2-stable202502)
