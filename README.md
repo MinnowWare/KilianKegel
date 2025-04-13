@@ -12,10 +12,6 @@ The [**♉toro C Library**](https://github.com/KilianKegel/toro-C-Library) intro
 It is a new, indepenant implementation of the [**ANSI C89 / ISO C90+C95 Standard C Library**](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub160.pdf).<br>
 ([Only floating point print/scan-support is currently missing](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#known-bugs) — Instead [**MATH.H**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250309-v090-build-243) functions are available !!!)
 
-
-<img src="https://github.com/KilianKegel/pictures/blob/master/torouefishell.png"  width="256" height="144"><br>
-
-
 ## Flagship Projects
 | Flagship Project | Content|
 |--------------|--------------------|
