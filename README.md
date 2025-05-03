@@ -1,6 +1,6 @@
 #### keywords
 "ANSI C for UEFI", "ISO C for UEFI", "Standard C for UEFI", "UEFI LIBC", "EFI LIBC", "UEFI application", "UEFI driver", "Visual Studio UEFI", 
-"Visual Studio UEFI", "Visual Studio 2022 UEFI"
+"Visual Studio UEFI", "Visual Studio 2022 UEFI", "UEFI Standard C Library"
 
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
