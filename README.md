@@ -37,11 +37,6 @@ If you wrote **Standard C**, it will all work on model R.
 **Nonetheless, it can do a lot** – and if you decompose whatever program you are writing into ‘**portable**’ and ‘**non-portable**’ sections, 
 you may **never have to rewrite the portable parts**.  
 
-If you need to start a process over the network, put that task in a separate function in a separate file.  
-Supply a different function (and file) for each different system as needed.  
-Your program will still require network and process extensions, 
-but now you will only have to rewrite the ‘start network process’ function each time you move the program. 
-
 # UEFI C Library, libc UEFI
 
 The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
