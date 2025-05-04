@@ -3,6 +3,44 @@
 "Visual Studio UEFI", "Visual Studio 2022 UEFI", "UEFI Standard C Library"
 
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
+# Preface
+### [Standards?  We don't need any stinkin' standards!](http://web.torek.net/torek/c/index.html) by Chris Torek
+Well, actually, maybe you do.  It really is a question of what you want to do.
+
+The standard – either one – is not the End of All C.  
+Writing ‘strictly conforming’ C code, however, has an enormous benefit.  
+The C standards are, in essence, a contract between you – a programmer writing C code – and the implementor supplying your C compiler and library.  
+
+This contract says, in effect, that as long as you stick to your part of the bargain, the implementor must stick to his.  
+The moment you violate your side of the deal, the implementor is free to violate his, too.
+
+In practice, this means that any strictly conforming code you write will work on every C compiler.  
+(A compiler cannot really claim to be a ‘C compiler’ unless it implements **Standard C**.)  
+There may be no Standards Cops to haul the implementor off to jail, but in fact, 
+if you wrote code that failed to run properly, and someone was hurt as a result and that person sued you in court, 
+your legal liability might depend to some extent on whether you followed **accepted industry practices**.  
+
+If the court were to decide that those practices included coding in **Standard C** where possible, 
+one of the key legal points in deciding whether you were ‘negligent’ – in the legal sense of the word – could hinge on whether you coded in **Standard C**.  
+
+Of course, simply adhering to **Standard C** might not be sufficient, and in a court case, there are many variables, 
+but being able to say ‘**I used accepted standards and practices in my work**’ has direct legal benefits in certain types of lawsuits.  
+
+Please note that this is not intended as legal advice; I am not a lawyer; I just listen to them.  
+More often, it also means that you can change compilers or even machines.  
+
+If, after getting halfway through a program, your boss comes to you and says ‘the model Q computer is obsolete; 
+we're buying model R machines now’ and you wrote Q-specific code, you will have to rewrite it all.  
+If you wrote **Standard C**, it will all work on model R.
+
+**Standard C is quite limited**:  It has no networking, no graphics, no mouse support; it cannot start processes, print to printers, and so on.  
+**Nonetheless, it can do a lot** – and if you decompose whatever program you are writing into ‘**portable**’ and ‘**non-portable**’ sections, 
+you may **never have to rewrite the portable parts**.  
+
+If you need to start a process over the network, put that task in a separate function in a separate file.  
+Supply a different function (and file) for each different system as needed.  
+Your program will still require network and process extensions, 
+but now you will only have to rewrite the ‘start network process’ function each time you move the program. 
 
 # UEFI C Library, libc UEFI
 
