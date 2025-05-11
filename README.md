@@ -4,7 +4,7 @@
 
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 # Preface
-### [Standards?  We don't need any stinkin' standards!](http://web.torek.net/torek/c/index.html) by Chris Torek
+### [Standards?  We don't need any stinkin' standards!](http://web.torek.net/torek/c/index.html) by Chris Torek, the maker of [BSD C Library](https://www.netbsd.org/people/CSRG-contrib.html)
 Well, actually, maybe you do.  It really is a question of what you want to do.
 
 The standard – either one – is not the End of All C.  
