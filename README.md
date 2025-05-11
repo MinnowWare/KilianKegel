@@ -26,12 +26,7 @@ one of the key legal points in deciding whether you were ‘negligent’ – in 
 Of course, simply adhering to **Standard C** might not be sufficient, and in a court case, there are many variables, 
 but being able to say ‘**I used accepted standards and practices in my work**’ has direct legal benefits in certain types of lawsuits.  
 
-Please note that this is not intended as legal advice; I am not a lawyer; I just listen to them.  
-More often, it also means that you can change compilers or even machines.  
-
-If, after getting halfway through a program, your boss comes to you and says ‘the model Q computer is obsolete; 
-we're buying model R machines now’ and you wrote Q-specific code, you will have to rewrite it all.  
-If you wrote **Standard C**, it will all work on model R.
+.<br>.<br>.
 
 **Standard C is quite limited**:  It has no networking, no graphics, no mouse support; it cannot start processes, print to printers, and so on.  
 **Nonetheless, it can do a lot** – and if you decompose whatever program you are writing into ‘**portable**’ and ‘**non-portable**’ sections, 
