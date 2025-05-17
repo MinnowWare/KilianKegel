@@ -1,6 +1,6 @@
-#### keywords
-"ANSI C for UEFI", "ISO C for UEFI", "Standard C for UEFI", "UEFI LIBC", "EFI LIBC", "UEFI application", "UEFI driver", "Visual Studio UEFI", 
-"Visual Studio UEFI", "Visual Studio 2022 UEFI", "UEFI Standard C Library"
+#### <h6>keywords
+
+<h6>ANSI C for UEFI, ISO C for UEFI, ANSI C UEFI, ISO C UEFI, Standard C for UEFI, UEFI LIBC, EFI LIBC, LIBC UEFI , LIBC EFI , UEFI application, UEFI driver, Visual Studio UEFI, Visual Studio 2022 UEFI, UEFI Standard C Library, Standard C Library UEFI, C LIB UEFI, C LIBRARY UEFI
 
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 # Preface
