@@ -1,35 +1,48 @@
 #### <h6>keywords
 
 <h6>ANSI C for UEFI, ISO C for UEFI, ANSI C UEFI, ISO C UEFI, Standard C for UEFI, UEFI LIBC, EFI LIBC, LIBC UEFI , LIBC EFI , UEFI application, UEFI driver, Visual Studio UEFI, Visual Studio 2022 UEFI, UEFI Standard C Library, Standard C Library UEFI, C LIB UEFI, C LIBRARY UEFI
-
+    
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
+    
+# License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
+[**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
+
+**I decided to allow developers to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
+
+# License [**toro C Library** *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
+```
+    Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
+    SPDX-License-Identifier: GNU General Public License v3.0
+```
+
 # Preface
 ### [Standards?  We don't need any stinkin' standards!](http://web.torek.net/torek/c/index.html) by Chris Torek, the maker of [BSD C Library](https://www.netbsd.org/people/CSRG-contrib.html)
 Well, actually, maybe you do.  It really is a question of what you want to do.
 
 The standard – either one – is not the End of All C.  
-Writing ‘strictly conforming’ C code, however, has an enormous benefit.  
-The C standards are, in essence, a contract between you – a programmer writing C code – and the implementor supplying your C compiler and library.  
+Writing **'strictly conforming'** C code, however, has an enormous benefit.  
+The C standards are, in essence, a contract between you –a programmer writing C code– and the implementor supplying your C compiler and library.  
 
 This contract says, in effect, that as long as you stick to your part of the bargain, the implementor must stick to his.  
 The moment you violate your side of the deal, the implementor is free to violate his, too.
 
-In practice, this means that any strictly conforming code you write will work on every C compiler.  
-(A compiler cannot really claim to be a ‘C compiler’ unless it implements **Standard C**.)  
+In practice, this means that any **strictly conforming** code you write **will work on every C compiler**.
+<br>(**A compiler cannot really claim to be a 'C compiler' unless it implements Standard C**.)<br>
 There may be no Standards Cops to haul the implementor off to jail, but in fact, 
 if you wrote code that failed to run properly, and someone was hurt as a result and that person sued you in court, 
-your legal liability might depend to some extent on whether you followed **accepted industry practices**.  
+your legal liability might depend to some extent on whether you followed 
+<br>**'accepted industry practices'**.  
 
 If the court were to decide that those practices included coding in **Standard C** where possible, 
 one of the key legal points in deciding whether you were ‘negligent’ – in the legal sense of the word – could hinge on whether you coded in **Standard C**.  
 
 Of course, simply adhering to **Standard C** might not be sufficient, and in a court case, there are many variables, 
-but being able to say ‘**I used accepted standards and practices in my work**’ has direct legal benefits in certain types of lawsuits.  
+but being able to say **'I used accepted standards and practices in my work'** has direct legal benefits in certain types of lawsuits.  
 
 .<br>.<br>.
 
 **Standard C is quite limited**:  It has no networking, no graphics, no mouse support; it cannot start processes, print to printers, and so on.  
-**Nonetheless, it can do a lot** – and if you decompose whatever program you are writing into ‘**portable**’ and ‘**non-portable**’ sections, 
+**Nonetheless, it can do a lot** – and if you decompose whatever program you are writing into **'portable'** and **'non-portable'** sections, 
 you may **never have to rewrite the portable parts**.  
 
 # UEFI C Library, libc UEFI
@@ -50,7 +63,7 @@ It is a new, independent implementation of the [**ANSI C89 / ISO C90+C95 Standar
 |[**TSCSync**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell)| TimeStampCounter-Synchronizer<br><img src="https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSyncDemo.gif"  width="256" height="144"><br>1. Introduce **TUI** TextUserInterface, a menu driven UEFI application — that looks not so bad...<br>2. Introduction of multi chart <img src="https://github.com/KilianKegel/pictures/blob/master/Microsoft_Office_Excel_(2019%E2%80%93present).svg.png"  width="20" height="20"> Excel .XLSX file generation using open source [**libxlsxwriter**](https://github.com/jmcnamara/libxlsxwriter)<br>3. Introduce reliable speed measurement to enable TSC for timer and wallclock usage [**AcpiClkWait()**](https://github.com/KilianKegel/Visual-TSCSync-for-UEFI-Shell/blob/main/TSCSync/AcpiClkWait.c#L51) vs. [**InternalAcpiDelay()**](https://github.com/tianocore/edk2/blob/master/PcAtChipsetPkg/Library/AcpiTimerLib/AcpiTimerLib.c#L150)|
 |[**toro C Library**<br>source code](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)| The Stuff That Dreams Are Made Of |
 
-### <!--<img src="https://github.com/KilianKegel/pictures/blob/master/refresh-icon.png"  width="48" height="48">-->HOWTO
+## <img src="https://github.com/KilianKegel/pictures/blob/master/refresh-icon.png"  width="48" height="48">HOWTO
 
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-setup-a-UEFI-Development-PC)](https://github.com/KilianKegel/Howto-setup-an-UEFI-Development-PC#howto-setup-a-uefi-development-pc)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-create-a-UEFI-Shell-Boot-Drive)](https://github.com/MinnowWare/Howto-create-a-UEFI-Shell-Boot-Drive#howto-create-a-uefi-shell-boot-device)
@@ -60,18 +73,7 @@ It is a new, independent implementation of the [**ANSI C89 / ISO C90+C95 Standar
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-configure-DDK-and-WDK-for-Standard-C-usage)](https://github.com/KilianKegel/Howto-configure-DDK-and-WDK-for-Standard-C-usage) 
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Howto-setup-a-YOCTO-Development-PC)](https://github.com/KilianKegel/Howto-setup-a-YOCTO-Development-PC)
 
-
-## License clarification
-### License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
-[**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
-
-**I decided to allow developers to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
-
-### License [**toro C Library** *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
-```
-    Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
-    SPDX-License-Identifier: GNU General Public License v3.0
-```
+## Projects
 
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)](https://github.com/KilianKegel/toro-C-Library#toro-c-library-formerly-known-as-torito-c-library)
 [![Repo name](https://github-readme-stats.vercel.app/api/pin/?username=KilianKegel&repo=Visual-TORO-C-LIBRARY-for-UEFI)](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
