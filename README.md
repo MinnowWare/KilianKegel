@@ -7,7 +7,7 @@
 # License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
 [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
 
-**I decided to allow developers to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
+**Developers are free to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
 
 # License [**toro C Library** *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
 ```
