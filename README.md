@@ -5,12 +5,12 @@
     
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
     
-# License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
+### License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
 [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
 
 **Developers are free to use [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) to compile any program, regardless of its [license](https://github.com/KilianKegel/toro-C-Library/blob/master/LICENSE.md)**.
 
-# License [**toro C Library** *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
+### License [**toro C Library** *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)
 ```
     Copyright (c) 2017-2025, Kilian Kegel. All rights reserved.
     SPDX-License-Identifier: GNU General Public License v3.0
