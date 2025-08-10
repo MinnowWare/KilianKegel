@@ -6,14 +6,17 @@
 
 # [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
 ![IEEEx87](https://github.com/KilianKegel/pictures/blob/master/IEEEMilestone.png)
-<br>The **8087** successor **80387** was fully IEEE 754 compliant.<br>
+<br>The **8087** successor **80387** is fully IEEE 754 compliant.<br>
 
-The architecture of this math library introduces a space optimized implementation of C's MATH.H functions,
-while keeping precision and correctness as good as already known in earlier x87-based math libraries.<BR>
-Since the traditional math coprocessor 80387 is still present in current x86 processors and is also not deprecated
-in the [X86S specification](https://www.intel.com/content/www/us/en/developer/articles/technical/envisioning-future-simplified-architecture.html) [.PDF](https://github.com/KilianKegel/4KPages-TechDocs/blob/main/x86s-eas-external-1.1.pdf),
-it can be used here.<br><br>
-The 80387 processor has various improvements over its 8087 predecessor, such as<br>
+The Math-Coprocessor is the foundation of this math library, providing a space-optimized, 
+ROM-able implementation of C's MATH.H functions while maintaining the precision and correctness 
+already established in earlier x87-based math libraries.<br>
+
+Since the traditional math coprocessor **80387** is still present in current x86 processors and is 
+also ***not deprecated*** in the [X86S specification](https://www.intel.com/content/www/us/en/developer/articles/technical/envisioning-future-simplified-architecture.html) [.PDF](https://github.com/KilianKegel/4KPages-TechDocs/blob/main/x86s-eas-external-1.1.pdf),
+it can be safely used here, now, and in the future on x86-based platforms.<br>
+
+The **80387** processor has various improvements over its **8087** predecessor, such as<br>
   * range extension for transcendental function:
 
     | Instruction  | function                      |
