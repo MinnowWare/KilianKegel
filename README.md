@@ -38,6 +38,26 @@ The **80387** processor has various improvements over its **8087** predecessor, 
 That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
 [<img src="https://camo.githubusercontent.com/1d27c346b07e50281211ebb242d03778e60a312b74ee5d50330db23cdbebd170/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f302f30362f4b4c5f696e74656c5f6933383744582e6a7067" width="250" height="250">](https://upload.wikimedia.org/wikipedia/commons/4/46/Intel_80387_CPU_Die_Image.jpg)
 
+## Test report, comparison *Toro C Library* vs *Microsoft C Library*
+* [**acos()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/acos.html)<br>
+* [**asin()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/asin.html)<br>
+* [**atan()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/atan.html)<br>
+* [**atan2()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/atan2.html)<br>
+* [**ceil()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/ceil.html)<br>
+* [**cos()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/cos.html)<br>
+* [**cosh()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/cosh.html)<br>
+* [**exp()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/exp.html)<br>
+* [**fabs()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/fabs.html)<br>
+* [**floor()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/floor.html)<br>
+* [**fmod()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/fmod.html)<br>
+* [**frexp()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/frexp.html)<br>
+* [**ldexp()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/ldexp.html)<br>
+* [**log()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/log.html)<br>
+* [**log10()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/log10.html)<br>
+* [**modf()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/modf.html)<br>
+* [**pow()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/pow.html)<br>
+* [**sin()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/sin.html)<br>
+* [**tan()**](https://cdn.githubraw.com/KilianKegel/toroCVSreport/main/tan.html)<br>
 
 **The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
 and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022 for x86 platforms.**
