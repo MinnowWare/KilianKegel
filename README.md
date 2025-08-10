@@ -3,7 +3,11 @@
 # <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="50" height="50"> [*toro C Library* *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)<br> builds with [LLVM/CLANG tool chain](https://llvm.org/) in Visual Studio 2022
 [<img src="https://llvm.org/img/LLVMWyvernSmall.png">](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main?tab=readme-ov-file#torosrc)
 
-# [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic<br><img src="https://camo.githubusercontent.com/1d27c346b07e50281211ebb242d03778e60a312b74ee5d50330db23cdbebd170/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f302f30362f4b4c5f696e74656c5f6933383744582e6a7067" width="100" height="100">](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
+
+# [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
+![IEEEx87](https://github.com/KilianKegel/pictures/blob/master/IEEEMilestone.png)
+<img src="https://camo.githubusercontent.com/1d27c346b07e50281211ebb242d03778e60a312b74ee5d50330db23cdbebd170/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f302f30362f4b4c5f696e74656c5f6933383744582e6a7067">
+
 
 **The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
 and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022 for x86 platforms.**
@@ -11,8 +15,6 @@ and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/bl
 **The [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) introduced here is written independently of any other source code.<br>
 It is a new, independent implementation of the [ANSI C89 / ISO C90+C95 Standard C Library](https://nvlpubs.nist.gov/nistpubs/Legacy/FIPS/fipspub160.pdf).<br>
 ([Only floating point print/scan-support is currently missing](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#known-bugs) — Instead [MATH.H](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250309-v090-build-243) functions are available !!!)**
-
-![IEEEx87](https://github.com/KilianKegel/pictures/blob/master/IEEEMilestone.png)
 
 ### License [**toro C Library** *binary*](https://github.com/KilianKegel/toro-C-Library)
 [**toro C Library** binary](https://github.com/KilianKegel/toro-C-Library) is free to use like the [**GLIBC runtime library**](https://www.gnu.org/licenses/gcc-exception-3.1-faq.html)
