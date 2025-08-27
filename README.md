@@ -6,6 +6,8 @@
 
 # [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
 [![IEEEx87](https://github.com/KilianKegel/pictures/blob/master/IEEEMilestone.png)](https://math.berkeley.edu/news/congratulations-professor-william-velvel-kahan)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Intel_C8087.jpg" width="800" >](https://upload.wikimedia.org/wikipedia/commons/a/aa/Intel_8087_die.JPG)
+
 <br>The [**8087**](https://en.wikipedia.org/wiki/X87#8087) successor [**80387**](https://en.wikipedia.org/wiki/X87#80387) is fully [**IEEE 754**](https://en.wikipedia.org/wiki/IEEE_754-1985) compliant.<br>
 
 The Math-Coprocessor is the foundation of this math library, providing a space-optimized, 
@@ -36,7 +38,7 @@ The **80387** processor has various improvements over its **8087** predecessor, 
     |FCOS          | cosine                   |
 
 That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
-[<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Intel_C8087.jpg" width="800" >](https://upload.wikimedia.org/wikipedia/commons/a/aa/Intel_8087_die.JPG)
+[<img src="https://en.wikipedia.org/wiki/X87#/media/File:KL_intel_i387DX.jpg" width="800" >](https://upload.wikimedia.org/wikipedia/commons/4/46/Intel_80387_CPU_Die_Image.jpg)
 
 
 **The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
