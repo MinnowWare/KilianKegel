@@ -1,12 +1,12 @@
 ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=KilianKegel.kiliankegel)
 
-# <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="50" height="50"> [*toro C Library* *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)<br> builds with [LLVM/CLANG tool chain](https://llvm.org/) in Visual Studio 2022
+## <img src="https://github.com/KilianKegel/pictures/blob/master/New-icon.png"  width="50" height="50"> [*toro C Library* *source code*](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI)<br> builds with [LLVM/CLANG tool chain](https://llvm.org/) in Visual Studio 2022
 [<img src="https://llvm.org/img/LLVMWyvernSmall.png">](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main?tab=readme-ov-file#torosrc)
 
 
-# [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
+## [*toro C Library*](https://github.com/KilianKegel/toro-C-Library) with [high precision, micro footprint hardware arithmetic](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI/tree/main/toroCLibrary/Library/math_h) 
 [![IEEEx87](https://github.com/KilianKegel/pictures/blob/master/IEEEMilestone.png)](https://math.berkeley.edu/news/congratulations-professor-william-velvel-kahan)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Intel_C8087.jpg" width="800" >](https://upload.wikimedia.org/wikipedia/commons/a/aa/Intel_8087_die.JPG)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Intel_C8087.jpg" width="1000" >](https://upload.wikimedia.org/wikipedia/commons/a/aa/Intel_8087_die.JPG)
 
 <br>The [**8087**](https://en.wikipedia.org/wiki/X87#8087) successor [**80387**](https://en.wikipedia.org/wiki/X87#80387) is fully [**IEEE 754**](https://en.wikipedia.org/wiki/IEEE_754-1985) compliant.<br>
 
@@ -39,11 +39,7 @@ The **80387** processor has various improvements over its **8087** predecessor, 
 
 That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
 
-![bild](https://en.wikipedia.org/wiki/X87#/media/File:KL_intel_i387DX.jpg)<br>
-
-[<img src="https://github.com/KilianKegel/KilianKegel/tree/6b67e1b6dda94fdf0f45ff731e6859760ee3f4bc?tab=readme-ov-file" width="800" >](https://upload.wikimedia.org/wikipedia/commons/4/46/Intel_80387_CPU_Die_Image.jpg)
-
-
+# About
 **The content on this page is all about developing of <img src="https://github.com/KilianKegel/pictures/blob/master/uefi-logo.png"  width="20" height="20"> UEFI  applications
 and drivers using Microsoft <img src="https://github.com/KilianKegel/pictures/blob/master/vs-icon.svg"  width="20" height="20"> Visual Studio 2022 for x86 platforms.**
 
