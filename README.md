@@ -38,6 +38,8 @@ The **80387** processor has various improvements over its **8087** predecessor, 
     |FCOS          | cosine                   |
 
 That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
+
+<img src="https://en.wikipedia.org/wiki/X87#/media/File:KL_intel_i387DX.jpg" width="800" >
 [<img src="https://en.wikipedia.org/wiki/X87#/media/File:KL_intel_i387DX.jpg" width="800" >](https://upload.wikimedia.org/wikipedia/commons/4/46/Intel_80387_CPU_Die_Image.jpg)
 
 
