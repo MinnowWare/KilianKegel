@@ -39,7 +39,7 @@ The **80387** processor has various improvements over its **8087** predecessor, 
 
 That has reduced the programming effort dramatically and made algorithms very simple and easy to implement.<br>
 
-![bild](https://github.com/KilianKegel/KilianKegel/tree/6b67e1b6dda94fdf0f45ff731e6859760ee3f4bc?tab=readme-ov-file)<br>
+![bild](https://en.wikipedia.org/wiki/X87#/media/File:KL_intel_i387DX.jpg)<br>
 
 [<img src="https://github.com/KilianKegel/KilianKegel/tree/6b67e1b6dda94fdf0f45ff731e6859760ee3f4bc?tab=readme-ov-file" width="800" >](https://upload.wikimedia.org/wikipedia/commons/4/46/Intel_80387_CPU_Die_Image.jpg)
 
